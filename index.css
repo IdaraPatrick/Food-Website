@@ -83,7 +83,9 @@ right:50px;
 
 @media screen and (max-width:800px){
     .main .h1{
+        position: relative;
         font-size: 60px;
+        z-index: 1;
     }
 
     .main #food{
@@ -91,5 +93,15 @@ right:50px;
     }
     .btn-get-started{
         background-color:#FF9B05;
+    }
+    .navbar-toggler{
+        z-index: 1;
+    }
+    #img-scr{
+        position: absolute;
+        right:-70px;
+        top:-70px;
+        width:70%;
+        transform: rotate(180deg);
     }
 }
